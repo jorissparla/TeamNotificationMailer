@@ -1,0 +1,19 @@
+{
+  "name": "qmail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Joris Sparla <joris.sparla@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "dotenv": "^6.1.0",
+    "mssql": "^4.2.2",
+    "nodemailer": "^4.6.8",
+    "pug": "^2.0.3"
+  }
+}

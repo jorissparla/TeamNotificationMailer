@@ -1,0 +1,13 @@
+style(type="text/css").
+  body {
+    font-family: "Serif",
+    background-color: "#ddd";
+  }
+
+h1(style={'color': '#13A3F7',  'font-family': "Arial" }) Team notitication #{shift} for team : #{team}
+h2(style={color: '#686B73'}) #{nicedate}
+p For this shift, the following people are scheduled:
+
+ul
+  each item in data
+    li= item.name
